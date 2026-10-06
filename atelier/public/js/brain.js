@@ -2,11 +2,11 @@
 
 // Vos réglages : recopiez ici la limite et les deux mots de votre cahier-personnel.json.
 // Les valeurs écrites ci-dessous sont celles de l'exemple (240, boussole, refuge), pas les vôtres.
-export const LIMITE = 240;
+export const LIMITE = 200;
 
 const MOTS = {
-  boussole: 'La boussole indique le nord.',
-  refuge: 'Un refuge accueille les randonneurs.'
+  horaires: 'Nous sommes ouverts du lundi au vendredi, de 9 h à 18 h.',
+  tarifs: 'Nos tarifs sont affichés sur la page d’accueil.'
 };
 
 const liste = Object.keys(MOTS).map((mot) => `« ${mot} »`).join(' et ');
